@@ -1,6 +1,3 @@
-const mylist = ["cafe", "caneta", "estudo"];
-const elemento = document.querySelector('#mylist');
+const { printNmae, lastname} = require('./printName');
 
-if (elemento) {
-    elemento.textContent = mylist.join(", ");
-}
+printName(`Marcos ${lastName}`);
